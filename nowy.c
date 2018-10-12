@@ -5,11 +5,9 @@ int main() {
     int wartosc_calkowita;
     double wartosc_wymierna;
 
-    scanf("%c%i%lf",
-          &znak,
-          &wartosc_calkowita,
-          &wartosc_wymierna);
-
+    printf("podaj znak "); scanf("%c", &znak);
+    printf("podaj liczbe całkowitą "); scanf("%i", &wartosc_calkowita);
+    printf("podaj liczbe wymierną "); scanf("%lf", &wartosc_wymierna);
     printf(
             "znak = %c,"
             "\n liczba całkowita = %i,"
