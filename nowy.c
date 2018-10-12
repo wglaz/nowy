@@ -5,9 +5,14 @@ int main() {
     int wartosc_calkowita;
     double wartosc_wymierna;
     char ciag_znakow[256]; //tablica znaków ciąg znaków
+    char opcja ='X';
+    char *napis = "opis programu";
 
-    printf("podaj znak "); scanf("%c", &znak);
-    printf("podaj ciąg znakowy "); scanf("%s", &ciag_znakow);
+    printf("wybrano opcje %c : %31s", opcja, napis);
+
+
+    printf("\npodaj znak "); scanf("%c", &znak);
+    printf("podaj ciąg znakowy "); scanf("%s", ciag_znakow);
     printf("podaj liczbe całkowitą "); scanf("%i", &wartosc_calkowita);
     printf("podaj liczbe wymierną "); scanf("%lf", &wartosc_wymierna);
 
